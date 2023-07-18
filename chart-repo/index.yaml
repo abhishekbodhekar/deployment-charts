@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  cr-server:
+  - apiVersion: v2
+    appVersion: v3.2.0
+    created: "2023-07-19T03:01:37.138936+05:30"
+    description: A Helm chart for Kubernetes
+    digest: d6778cfc5a9d2f31a7a7634a445f6a166abde73d2973c9fa8718e8b5da440eb3
+    name: cr-server
+    type: application
+    urls:
+    - cr-server-3.2.0.tgz
+    version: 3.2.0
+generated: "2023-07-19T03:01:37.138204+05:30"
