@@ -3,4 +3,4 @@ prometheus.yml:
   - job_name: "game_1"
     static_configs:
       - targets: 
-      - - "game-metrics.default.svc.cluster.local:14503"
+      - - "prod-game-metrics.default.svc.cluster.local:14503"
