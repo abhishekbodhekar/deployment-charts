@@ -31,6 +31,7 @@ jobs:
         env:
           MY_SECRET: ${{secrets.KUBECONFIG}}
         run: |
+          mkdir ~/.kube
           touch ~/.kube/config
           echo  "$MY_SECRET" >> ~/.kube/config
           export KUBECONFIG=~/.kube/config
