@@ -31,10 +31,10 @@ jobs:
         env:
           MY_SECRET: ${{secrets.KUBECONFIG}}
         run: |
-          mkdir ~/.kube
-          touch ~/.kube/config
-          echo  "$MY_SECRET" >> ~/.kube/config
-          export KUBECONFIG=~/.kube/config
+          touch config
+          echo  "$MY_SECRET" >> config
+          export pa=$(pwd)
+          export KUBECONFIG="${pa}/config"
           sh deploy.sh
 
     
