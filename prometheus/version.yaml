@@ -1,3 +1,4 @@
 repo: https://prometheus-community.github.io/helm-charts
 chart: prometheus
 version: 23.1.0
+release: prod-prometheus

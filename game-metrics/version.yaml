@@ -1,3 +1,4 @@
-repo: https://storage.googleapis.com/helm-repo-abhishek/helm-repo
+repo: https://abhishekbodhekar.github.io/deployment-charts/chart-repo/
 chart: game-metrics
 version: 1.1.0
+release: prod-game-metrics

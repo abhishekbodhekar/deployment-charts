@@ -1,3 +1,4 @@
 repo: https://grafana.github.io/helm-charts
 chart: grafana
 version: 6.58.4
+release: prod-grafana
