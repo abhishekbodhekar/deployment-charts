@@ -1,3 +1,0 @@
-repo: https://storage.googleapis.com/helm-repo-abhishek/helm-repo
-chart: game-metrics
-version: 1.1.0

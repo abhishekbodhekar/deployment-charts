@@ -1,3 +1,0 @@
-repo: https://storage.googleapis.com/helm-repo-abhishek/helm-repo
-chart: cr-management
-version: 1.1.0
