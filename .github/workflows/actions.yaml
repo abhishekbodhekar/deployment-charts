@@ -28,8 +28,10 @@ jobs:
 
       - name: helm-deploy
         id: helm-deploy
+        env:
+          MY_SECRET: ${{secrets.KUBECONFIG}}
         run: |
-          echo ${{ secrets.KUBECONFIG}} >> ~/.kube/config
+          echo  "$MY_SECRET" >> ~/.kube/config
           export KUBECONFIG=~/.kube/config
           sh deploy.sh
 
