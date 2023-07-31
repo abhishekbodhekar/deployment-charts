@@ -11,6 +11,3 @@ datasources:
 service:
   type: LoadBalancer
   port: 3000
-
-
-      
