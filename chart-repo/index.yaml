@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  cr-management:
+  - apiVersion: v2
+    appVersion: v1.1.0
+    created: "2023-07-31T08:24:36.321629829Z"
+    description: A Helm chart for Kubernetes
+    digest: b7e3f886cb91b907a697f21fe23895a304c478c7ef9b95560a2eee62775f3cfe
+    name: cr-management
+    type: application
+    urls:
+    - cr-management-1.1.0.tgz
+    version: 1.1.0
+  game-metrics:
+  - apiVersion: v2
+    appVersion: v1.1.0
+    created: "2023-07-31T08:24:36.321969273Z"
+    description: A Helm chart for Kubernetes
+    digest: 4579c4b4c5e09da3f12dad049da9186a217817dd5bdc924cc72c07be527dc286
+    name: game-metrics
+    type: application
+    urls:
+    - game-metrics-1.1.0.tgz
+    version: 1.1.0
+generated: "2023-07-31T08:24:36.320496917Z"
