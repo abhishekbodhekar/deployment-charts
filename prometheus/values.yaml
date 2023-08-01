@@ -8,4 +8,4 @@ prometheus.yml:
 server:
   service:
     type: LoadBalancer
-    port: 9090
+    servicePort: 9090
