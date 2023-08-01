@@ -4,3 +4,7 @@ prometheus.yml:
     static_configs:
       - targets: 
       - - "prod-game-metrics.default.svc.cluster.local:14503"
+
+server:
+  service:
+    type: LoadBalancer
