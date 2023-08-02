@@ -2,4 +2,3 @@ repo: https://abhishekbodhekar.github.io/deployment-charts/chart-repo/
 chart: cr-management
 version: 1.2.0
 release: prod-user-management
-
