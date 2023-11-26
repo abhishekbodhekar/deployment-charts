@@ -3,7 +3,7 @@ entries:
   cr-management:
   - apiVersion: v2
     appVersion: v1.2.8
-    created: "2023-11-26T13:24:19.609483872Z"
+    created: "2023-11-26T13:39:39.146585475Z"
     description: A Helm chart for Kubernetes
     digest: a0f9644bbc947aa72625bcc06bfd24b1a566ffd462ee0e059eb5957e03e2eebe
     name: cr-management
@@ -13,7 +13,7 @@ entries:
     version: 1.2.8
   - apiVersion: v2
     appVersion: v1.2.7
-    created: "2023-11-26T13:24:19.609317864Z"
+    created: "2023-11-26T13:39:39.146410097Z"
     description: A Helm chart for Kubernetes
     digest: 59fac9bbbf588acfd9165852052b3d1316af645d597aea678149c813611b091b
     name: cr-management
@@ -23,7 +23,7 @@ entries:
     version: 1.2.7
   - apiVersion: v2
     appVersion: v1.2.6
-    created: "2023-11-26T13:24:19.609154319Z"
+    created: "2023-11-26T13:39:39.146239548Z"
     description: A Helm chart for Kubernetes
     digest: da56818af192aa02e041dc257217b700ec79d96821cc03723dffc2488d6b5bed
     name: cr-management
@@ -33,7 +33,7 @@ entries:
     version: 1.2.6
   - apiVersion: v2
     appVersion: v1.2.5
-    created: "2023-11-26T13:24:19.608977521Z"
+    created: "2023-11-26T13:39:39.146058038Z"
     description: A Helm chart for Kubernetes
     digest: b4f6fdf1c92b527682e7a59fd3a67697e0fbc337518bbb20afad19cf0efa66fc
     name: cr-management
@@ -43,7 +43,7 @@ entries:
     version: 1.2.5
   - apiVersion: v2
     appVersion: v1.2.0
-    created: "2023-11-26T13:24:19.608784532Z"
+    created: "2023-11-26T13:39:39.14588266Z"
     description: A Helm chart for Kubernetes
     digest: 5bce46e2b4deec02ffe2c73948a22404ef29c696cb1619383debd192c27e971f
     name: cr-management
@@ -53,7 +53,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2023-11-26T13:24:19.608575293Z"
+    created: "2023-11-26T13:39:39.145681163Z"
     description: A Helm chart for Kubernetes
     digest: 3182152327fa3a66d5bdc3183245bd4c9484a690894c0709d5837b697ffd552e
     name: cr-management
@@ -64,9 +64,9 @@ entries:
   cr-server:
   - apiVersion: v2
     appVersion: v3.2.0
-    created: "2023-11-26T13:24:19.609678404Z"
+    created: "2023-11-26T13:39:39.14676474Z"
     description: A Helm chart for Kubernetes
-    digest: 38289314eff91df4ac9ab666b2f746bf0143ca4dd6dd825745d575538278dbaf
+    digest: 5858e1568c839fe1be9480c214318d69a764310915fdce3ba23577d1574a9c9d
     name: cr-server
     type: application
     urls:
@@ -75,7 +75,7 @@ entries:
   game-metrics:
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2023-11-26T13:24:19.609857948Z"
+    created: "2023-11-26T13:39:39.146924379Z"
     description: A Helm chart for Kubernetes
     digest: 110f2a3941f4b09b7f081be0ba0e35439d3fbdbb5d9731223edd809605fb38fd
     name: game-metrics
@@ -83,4 +83,4 @@ entries:
     urls:
     - game-metrics-1.1.0.tgz
     version: 1.1.0
-generated: "2023-11-26T13:24:19.608241111Z"
+generated: "2023-11-26T13:39:39.145349773Z"
