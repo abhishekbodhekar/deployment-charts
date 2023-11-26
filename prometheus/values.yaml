@@ -5,7 +5,7 @@ serverFiles:
       scrape_interval: 5s
       static_configs:
         - targets: 
-          - "prod-game-metrics.default.svc.cluster.local:14503"
+          - "game-metrics.default.svc.cluster.local:14503"
 
 server:
   service:
