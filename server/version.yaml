@@ -2,3 +2,4 @@ repo: https://abhishekbodhekar.github.io/deployment-charts/chart-repo/
 chart: cr-server
 version: 3.2.0
 release: prod-server
+
