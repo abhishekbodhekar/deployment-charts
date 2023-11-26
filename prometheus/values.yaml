@@ -12,4 +12,6 @@ server:
     servicePort: 9090
   global:
     scrape_interval: 5s
+    scrape_timeout: 4s
     
+

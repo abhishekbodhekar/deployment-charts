@@ -1,6 +1,7 @@
 auth:
   enabled: false
 replica:
-  replicaCount: 1
+  replicaCount: 0
 commonConfiguration: |-
   appendonly no
+
