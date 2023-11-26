@@ -3,6 +3,7 @@ serverFiles:
     scrape_configs:
     - job_name: "game_1"
       scrape_interval: 5s
+      scrape_timeout: 4s
       static_configs:
         - targets: 
           - "game-metrics.prod.svc.cluster.local:14503"
