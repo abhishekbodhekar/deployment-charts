@@ -16,9 +16,9 @@ for b in $changes
   file2="./${b}/values.yaml"
   if [ -f "$file2" ]; 
   then 
-    helm upgrade --install $release "${b}-repo"/$chart --version=$version -f $file2
+    helm upgrade --install $chart -n $release "${b}-repo"/$chart --version=$version -f $file2
   else
-    helm upgrade --install $release "${b}-repo"/$chart --version=$version
+    helm upgrade --install $chart -n $release "${b}-repo"/$chart --version=$version
   fi
   fi
 done
