@@ -10,15 +10,16 @@ for b in $changes
   chart=$(yq '.chart' $file)
   version=$(yq '.version' $file)
   release=$(yq '.release' $file)
+  namespace=$(yq '.namespace' $file)
   helm repo add "${b}-repo" $repo
   helm repo update "${b}-repo"
 
   file2="./${b}/values.yaml"
   if [ -f "$file2" ]; 
   then 
-    helm upgrade --install $chart -n $release "${b}-repo"/$chart --version=$version -f $file2
+    helm upgrade --install $release -n $namespace "${b}-repo"/$chart --version=$version -f $file2
   else
-    helm upgrade --install $chart -n $release "${b}-repo"/$chart --version=$version
+    helm upgrade --install $release -n $namespace "${b}-repo"/$chart --version=$version
   fi
   fi
 done
