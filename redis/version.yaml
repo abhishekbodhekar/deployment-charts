@@ -1,5 +1,6 @@
 repo: https://charts.bitnami.com/bitnami
 chart: redis
 version: 17.13.2
-release: prod-redis
+release: redis
+namespace: prod
   
