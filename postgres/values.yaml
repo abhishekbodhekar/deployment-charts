@@ -1,0 +1,8 @@
+auth:
+  database: cr
+  username: cr_user
+  password: cr_password
+
+replication:
+  enabled: false
+  replicaCount: 0
